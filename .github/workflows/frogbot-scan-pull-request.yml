@@ -11,7 +11,7 @@ permissions:
 jobs:
   scan-pull-request:
     runs-on: ubuntu-latest
-    # A pull request needs to be approved TS before Frogbot scans it. Any GitHub user who is associated with the
+    # A pull request needs to be approved TS-addedENV before Frogbot scans it. Any GitHub user who is associated with the
     # "frogbot" GitHub environment can approve the pull request to be scan.
     environment: frogbot
     steps:
