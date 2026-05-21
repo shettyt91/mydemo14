@@ -37,8 +37,8 @@ jobs:
           # [Mandatory if JF_ACCESS_TOKEN is not provided]
           # JFrog password. Must be provided with JF_USER
           #JF_PASSWORD: ${{ secrets.JF_PASSWORD }}
-          #JF_INCLUDE_ALL_VULNERABILITIES: "TRUE"
-          #JF_MIN_SEVERITY: "HIGH"
+          JF_INCLUDE_ALL_VULNERABILITIES: "TRUE"
+          JF_MIN_SEVERITY: "LOW"
           JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
           # [Mandatory]
           # The GitHub token is automatically generated for the job
